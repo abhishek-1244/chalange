@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0% 10%;
+  border: 2px solid red;
+}
+
+.top-bar {
+  padding: 2px 10%;
+  background: #333538;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.top-bar img {
+  width: 34px;
+}
+
+.top-bar ul {
+  display: flex
+}
+
+.top-bar li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.top-bar p {
+  font-family: sans-serif;
+  color: #fbab00;
+  display: inline;
+  line-height: 0;
+}
+
+.quote {
+  color: white;
+  background-color: #df2466;
+  padding: 0px 10px;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+.menu {
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-between;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+  border-right: 1px solid gray;
+}
+
+.menu li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.menu img {
+  display: inline-block;
+}
+
+.banner {
+  background-image: url("img/home-webguru-home-banner.jpg");
+  background-position: center;
+}
+
+.banner-box {
+  color: white;
+  padding: 90px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-left-caption {
+  width: 50%;
+}
+
+.banner-left-caption h1 {
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+
+.banner-left-caption p {
+  font-size: 20px;
+}
+
+.banner-clints {
+  display: flex;
+  padding-top: 30px;
+}
+
+.clint {
+  padding: 10px;
+}
+
+.banner-right-caption ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  list-style: none;
+  border-top: 2px solid #01abee;
+  border-bottom: 2px solid #01aced;
+}
+
+.banner-right-caption ul li:first-child {
+  border-bottom: 2px solid #eb018b;
+}
+
+.banner-right-caption ul li:last-child {
+  border-top: 2px solid #eb018b;
+}
+.banner-right-caption ul li {
+    padding: 10px;
+    width: 115px;
+    padding: 30px 0;
+    text-align: center;
+    font-family: Yantramanav,sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 17px;
+
+}
